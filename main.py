@@ -10,7 +10,6 @@ scrapeRepo = input("What page should i scrape? ")
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service)
 driver.get(f"{scrapeRepo}")
-#targetRepo = "https://github.com/DrRorschach"
 listReposLinks = []
 listReposName = []
 resultsRepo = driver.find_elements(By.CLASS_NAME, "repo")
@@ -108,6 +107,14 @@ def searchloop(nextPage):
                 filePage = f"{schema}://{netloc}{path}/blob/main/{s}"
             goingForRaw(filePage)
         elif ".php" in s:
+            if "/tree/main" in current_URL:
+                partOne = f"{schema}://{netloc}{path.split('/tree')[0]}"
+                partTwo = path.split('/tree')[1]
+                filePage = f"{partOne}/blob{partTwo}/{s}"
+            else:
+                filePage = f"{schema}://{netloc}{path}/blob/main/{s}"
+            goingForRaw(filePage)
+        elif ".json" in s:
             if "/tree/main" in current_URL:
                 partOne = f"{schema}://{netloc}{path.split('/tree')[0]}"
                 partTwo = path.split('/tree')[1]
