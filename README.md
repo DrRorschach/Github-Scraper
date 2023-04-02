@@ -20,6 +20,9 @@ This GitHub scraper tool is a Python script that automatically scans through all
 </ul>
 
 <h2 id="setup">Setup</h2>
+1. To run this tool clone or download the "main.py" file from this repository.
+2. Install Python3 and the required dependencies: Selenium, Webdriver Manager, and urllib.
+
 <h2 id="status">Status</h2>
 
 
