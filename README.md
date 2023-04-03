@@ -6,7 +6,8 @@ Simple automated reconnaissance tool created with Selenium in Python.
   <li><a href = "#generalInfo">General Info</a></li>
   <li><a href = "#technologies">Technologies</a></li>
   <li><a href = "#setup">Setup</a></li>
-  <li><a href = "#status">Status</a></li>
+  <li><a href = "#status">Status</a></li>  
+  <li><a href = "#inspiration">Inspiration</a></li>
 </ul>
 
 <h2 id="generalInfo">General info</h2>
@@ -39,3 +40,6 @@ This GitHub scraper tool is a Python script that automatically scans through all
 <h2 id="status">Status</h2>
 
 For training purposes, the project is now complete. If you'd like to try out the tool, you can scan my Github profile where you'll find a repository named "TestRepo". It contains various files and subfolders with fake passwords and user information that can be used for testing purposes.
+
+<h2 id= "inspiration">Inspiration</h2>
+This project idea was inspired by Phd Security's 'Python Program That Can Scrape Github For Hackers'(https://www.youtube.com/watch?v=6UsdsC0B-vE), with changes made to the depth of the search, URL generation, and error handling.
