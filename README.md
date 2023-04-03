@@ -10,7 +10,7 @@ Simple automated reconnaissance tool created with Selenium in Python.
 </ul>
 
 <h2 id="generalInfo">General info</h2>
-This GitHub scraper tool is a Python script that automatically scans through all data within a targeted GitHub repository, including all subfolders, to check for specific file extensions and search for certain terms. The tool is fully customizable to search for specific file extensions and terms. This project was intended for training purposes to learn the basics of Python, web development, and web automation using Selenium. Additionally, it can be used as a reconnaissance tool for penetration testing purposes.
+This GitHub scraper tool is a Python script that automatically scans through all repositorys within a targeted GitHub Profil, including all subfolders, to check for specific file extensions and search for certain terms. The tool is fully customizable to search for specific file extensions and terms. This project was intended for training purposes to learn the basics of Python, web development, and web automation using Selenium. Additionally, it can be used as a reconnaissance tool for penetration testing purposes.
 
 <h2 id="technologies">Technologies</h2>
 <ul>
@@ -20,15 +20,22 @@ This GitHub scraper tool is a Python script that automatically scans through all
 </ul>
 
 <h2 id="setup">Setup</h2>
-1. To run this tool clone or download the "main.py" file from this repository.
+1. To run this tool clone or download the "main.py" file from this repository.<br></br>
 2. Install Python3 and the required dependencies: Selenium, Webdriver Manager, and urllib.
 <p align="center">
   <img class= "center" src="/images/dependencies_setup.PNG">
 </p>
 3. Run the script using Python
-
-
+<p align="center">
+  <img class= "center" src="/images/run_main.PNG">
+</p>
+4. The script will ask for the URL of the GitHub Profil you want to scrape. Enter the URL and press enter.<br></br>
+5. The script will start running and will print out the URLs of all the files that match the specified file extensions and terms.<br></br>
+6. You can customize the file extensions and terms to search for by modifying the code of the script. The relevant lines are:
+<br></br>
+<p align="center">
+  <img class= "center" src="/images/relevant_lines_for_customization.PNG">
+</p>
 <h2 id="status">Status</h2>
 
-
-If you would like to try this tool, you can test it on my Github profile. The repository named "TestRepo" has various different files and subfolders with fake passwords and user information.
+For training purposes, the project is now complete. If you'd like to try out the tool, you can scan my Github profile where you'll find a repository named "TestRepo". It contains various files and subfolders with fake passwords and user information that can be used for testing purposes.
