@@ -11,7 +11,7 @@ Simple automated reconnaissance tool created with Selenium in Python.
 </ul>
 
 <h2 id="generalInfo">General info</h2>
-This GitHub scraper tool is a Python script that automatically scans through all repositorys within a targeted GitHub Profil, including all subfolders, to check for specific file extensions and search for certain terms. The tool is fully customizable to search for specific file extensions and terms. This project was intended for training purposes to learn the basics of Python, web development, and web automation using Selenium. Additionally, it can be used as a reconnaissance tool for penetration testing purposes.
+This GitHub scraper tool is a Python script that automatically scans through all repositories within a targeted GitHub Profil, including all subfolders, to check for specific file extensions and search for certain terms. The tool is fully customizable to search for specific file extensions and terms. This project was intended for training purposes to learn the basics of Python, web development, and web automation using Selenium. Additionally, it can be used as a reconnaissance tool for penetration testing purposes.
 
 <h2 id="technologies">Technologies</h2>
 <ul>
